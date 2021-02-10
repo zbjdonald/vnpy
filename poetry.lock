@@ -1,20 +1,4 @@
 [[package]]
-name = "babel"
-version = "2.9.0"
-description = "Internationalization utilities"
-category = "main"
-optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-
-[package.dependencies]
-pytz = ">=2015.7"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "tsinghua"
-
-[[package]]
 name = "brotli"
 version = "1.0.9"
 description = "Python bindings for the Brotli compression library"
@@ -102,52 +86,6 @@ url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 reference = "tsinghua"
 
 [[package]]
-name = "delorean"
-version = "1.0.0"
-description = "library for manipulating datetimes with ease and clarity"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-babel = ">=2.1.1"
-humanize = ">=0.5.1"
-python-dateutil = ">=2.4.2"
-pytz = ">=2015.7"
-tzlocal = ">=1.2"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "tsinghua"
-
-[[package]]
-name = "docopt"
-version = "0.6.2"
-description = "Pythonic argument parser, that will make you smile"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "tsinghua"
-
-[[package]]
-name = "enum34"
-version = "1.1.6"
-description = "Python 3.4 Enum backported to 3.3, 3.2, 3.1, 2.7, 2.6, 2.5, and 2.4"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "tsinghua"
-
-[[package]]
 name = "futu-api"
 version = "3.27.2"
 description = "Futu Quantitative Trading API"
@@ -179,22 +117,6 @@ importlib-metadata = {version = "*", markers = "python_version < \"3.8\""}
 
 [package.extras]
 memory_info = ["psutil (>=5.6)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "tsinghua"
-
-[[package]]
-name = "humanize"
-version = "3.1.0"
-description = "Python humanize utilities"
-category = "main"
-optional = false
-python-versions = ">=3.6"
-
-[package.extras]
-tests = ["freezegun", "pytest", "pytest-cov"]
 
 [package.source]
 type = "legacy"
@@ -419,19 +341,6 @@ description = "library with cross-python path, ini-parsing, io, code, log facili
 category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "tsinghua"
-
-[[package]]
-name = "pyasn1"
-version = "0.4.2"
-description = "ASN.1 types and codecs"
-category = "main"
-optional = false
-python-versions = "*"
 
 [package.source]
 type = "legacy"
@@ -768,22 +677,6 @@ url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 reference = "tsinghua"
 
 [[package]]
-name = "rsa"
-version = "4.0"
-description = "Pure-Python RSA implementation"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-pyasn1 = ">=0.1.3"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "tsinghua"
-
-[[package]]
 name = "scipy"
 version = "1.5.4"
 description = "SciPy: Scientific Library for Python"
@@ -870,22 +763,6 @@ url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 reference = "tsinghua"
 
 [[package]]
-name = "stomp.py"
-version = "4.1.22"
-description = "Python STOMP client, supporting versions 1.0, 1.1 and 1.2 of the protocol"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-docopt = ">=0.6.2"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "tsinghua"
-
-[[package]]
 name = "TA-Lib"
 version = "0.4.18"
 description = "Python wrapper for TA-Lib"
@@ -896,31 +773,6 @@ python-versions = "*"
 [package.source]
 type = "file"
 url = "TA_Lib-0.4.18-cp37-cp37m-win_amd64.whl"
-
-[[package]]
-name = "tigeropen"
-version = "1.2.0"
-description = "TigerBrokers Open API"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-delorean = "1.0.0"
-enum34 = "1.1.6"
-pandas = "0.24.2"
-pyasn1 = "0.4.2"
-python-dateutil = "2.8.1"
-pytz = "2019.3"
-rsa = "4.0"
-simplejson = "3.17.0"
-six = "1.13.0"
-"stomp.py" = "4.1.22"
-
-[package.source]
-type = "legacy"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "tsinghua"
 
 [[package]]
 name = "toolz"
@@ -1063,13 +915,9 @@ reference = "tsinghua"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "52eb905a9629ed542c94e3fcefa31df220ac57756c375f5cc64245f1ce408830"
+content-hash = "b56c58faee8f1989e07fce662024dc57ac3ebb05c961c228e036d83d246be364"
 
 [metadata.files]
-babel = [
-    {file = "Babel-2.9.0-py2.py3-none-any.whl", hash = "sha256:9d35c22fcc79893c3ecc85ac4a56cde1ecf3f19c540bba0922308a6c06ca6fa5"},
-    {file = "Babel-2.9.0.tar.gz", hash = "sha256:da031ab54472314f210b0adcff1588ee5d1d1d0ba4dbd07b94dba82bde791e05"},
-]
 brotli = [
     {file = "Brotli-1.0.9-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:268fe94547ba25b58ebc724680609c8ee3e5a843202e9a381f6f9c5e8bdb5c70"},
     {file = "Brotli-1.0.9-cp27-cp27m-manylinux1_i686.whl", hash = "sha256:c2415d9d082152460f2bd4e382a1e85aed233abc92db5a3880da2257dc7daf7b"},
@@ -1178,28 +1026,12 @@ deap = [
     {file = "deap-1.3.1-cp38-cp38-win_amd64.whl", hash = "sha256:794acffc3a2da2213bd184be8d6a751b0df03bdf2271bb57da7414201c4afb28"},
     {file = "deap-1.3.1.tar.gz", hash = "sha256:11f54493ceb54aae10dde676577ef59fc52d52f82729d5a12c90b0813c857a2f"},
 ]
-delorean = [
-    {file = "Delorean-1.0.0.tar.gz", hash = "sha256:fe67786e12338523848bec5588a658c4d425e12d53eb51cfef870bec8f576134"},
-]
-docopt = [
-    {file = "docopt-0.6.2.tar.gz", hash = "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"},
-]
-enum34 = [
-    {file = "enum34-1.1.6-py2-none-any.whl", hash = "sha256:6bd0f6ad48ec2aa117d3d141940d484deccda84d4fcd884f5c3d93c23ecd8c79"},
-    {file = "enum34-1.1.6-py3-none-any.whl", hash = "sha256:644837f692e5f550741432dd3f223bbb9852018674981b1664e5dc339387588a"},
-    {file = "enum34-1.1.6.tar.gz", hash = "sha256:8ad8c4783bf61ded74527bffb48ed9b54166685e4230386a9ed9b1279e2df5b1"},
-    {file = "enum34-1.1.6.zip", hash = "sha256:2d81cbbe0e73112bdfe6ef8576f2238f2ba27dd0d55752a776c41d38b7da2850"},
-]
 futu-api = [
     {file = "futu-api-3.27.2.tar.gz", hash = "sha256:6b086c16defff06b0f33d64c71abab525b04580fc37a4e855d7af08fdeedde94"},
 ]
 helpdev = [
     {file = "helpdev-0.7.1-py3-none-any.whl", hash = "sha256:779a761b18c2d96fb181aa699609f802347806125f2fee2f60dad875a625e38e"},
     {file = "helpdev-0.7.1.tar.gz", hash = "sha256:bb62a79acbac141dadf42cadeb92bb7450dd18b9824a62043b6a0b149190db3d"},
-]
-humanize = [
-    {file = "humanize-3.1.0-py3-none-any.whl", hash = "sha256:6790d9ba139ce09761ae901be9b22bd32a131fa65ecc82cdfc4d86f377f7395d"},
-    {file = "humanize-3.1.0.tar.gz", hash = "sha256:fd3eb915310335c63a54d4507289ecc7b3a7454cd2c22ac5086d061a3cbfd592"},
 ]
 ibapi = []
 idna = [
@@ -1408,10 +1240,6 @@ psycopg2 = [
 py = [
     {file = "py-1.9.0-py2.py3-none-any.whl", hash = "sha256:366389d1db726cd2fcfc79732e75410e5fe4d31db13692115529d34069a043c2"},
     {file = "py-1.9.0.tar.gz", hash = "sha256:9ca6883ce56b4e8da7e79ac18787889fa5206c79dcc67fb065376cd2fe03f342"},
-]
-pyasn1 = [
-    {file = "pyasn1-0.4.2-py2.py3-none-any.whl", hash = "sha256:d5cd6ed995dba16fad0c521cfe31cd2d68400b53fcc2bce93326829be73ab6d1"},
-    {file = "pyasn1-0.4.2.tar.gz", hash = "sha256:d258b0a71994f7770599835249cece1caef3c70def868c4915e6e5ca49b67d15"},
 ]
 pycparser = [
     {file = "pycparser-2.20-py2.py3-none-any.whl", hash = "sha256:7582ad22678f0fcd81102833f60ef8d0e57288b6b5fb00323d101be910e35705"},
@@ -1664,10 +1492,6 @@ rqdatac = [
 rqdatac-fund = [
     {file = "rqdatac_fund-1.0.18.tar.gz", hash = "sha256:468251b5a225fdf0264084eb63c3e5322720d044daf043ca84516cc57bdb80f2"},
 ]
-rsa = [
-    {file = "rsa-4.0-py2.py3-none-any.whl", hash = "sha256:14ba45700ff1ec9eeb206a2ce76b32814958a98e372006c8fb76ba820211be66"},
-    {file = "rsa-4.0.tar.gz", hash = "sha256:1a836406405730121ae9823e19c6e806c62bbad73f890574fff50efa4122c487"},
-]
 scipy = [
     {file = "scipy-1.5.4-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:4f12d13ffbc16e988fa40809cbbd7a8b45bc05ff6ea0ba8e3e41f6f4db3a9e47"},
     {file = "scipy-1.5.4-cp36-cp36m-manylinux1_i686.whl", hash = "sha256:a254b98dbcc744c723a838c03b74a8a34c0558c9ac5c86d5561703362231107d"},
@@ -1761,14 +1585,8 @@ sqlalchemy = [
     {file = "SQLAlchemy-1.3.20-cp39-cp39-win_amd64.whl", hash = "sha256:d05cef4a164b44ffda58200efcb22355350979e000828479971ebca49b82ddb1"},
     {file = "SQLAlchemy-1.3.20.tar.gz", hash = "sha256:d2f25c7f410338d31666d7ddedfa67570900e248b940d186b48461bd4e5569a1"},
 ]
-"stomp.py" = [
-    {file = "stomp.py-4.1.22.tar.gz", hash = "sha256:d28120d902dcb81274cf78bd269dfbdfe2b20ea5ae5b33d90b56a32e8c18abe2"},
-]
 TA-Lib = [
     {file = "TA_Lib-0.4.18-cp37-cp37m-win_amd64.whl", hash = "sha256:13763fd30ce9afdf5ce909267887d9ed57a4a9fde7b588208772a160967d761d"},
-]
-tigeropen = [
-    {file = "tigeropen-1.2.0.tar.gz", hash = "sha256:48e1f90ff4c5223d1382eb542207b320b69e4a5bbc1eaa7f5099eaeba72ea100"},
 ]
 toolz = [
     {file = "toolz-0.11.1-py3-none-any.whl", hash = "sha256:1bc473acbf1a1db4e72a1ce587be347450e8f08324908b8a266b486f408f04d5"},
